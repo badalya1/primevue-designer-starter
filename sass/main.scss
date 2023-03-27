@@ -1,0 +1,20 @@
+@media (prefers-color-scheme: dark) {
+  @import "./variables/_variables_dark";
+
+  @import "./designer/_mixins";
+  @import "./designer/_colors";
+  @import "./designer/_common";
+  @import "./designer/_components";
+
+  @import "./layout/_layout";
+}
+@media (prefers-color-scheme: light) {
+  @import "./variables/_variables_light";
+
+  @import "./designer/_mixins";
+  @import "./designer/_colors";
+  @import "./designer/_common";
+  @import "./designer/_components";
+
+  @import "./layout/_layout";
+}
